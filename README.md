@@ -26,7 +26,7 @@ Run *live-demo.ipynb*. This will use the model *model_trt.pth*. This will show t
 
 ### Option 2 - train your own
 
-For this option the following steps needs to be perform:
+For this option the following steps needs to be performed:
 
 1. ***Collect data:*** run *collect-data.ipynb* to collect images of empty and full bowls. By varying bowls, location and lighting you will get higher accuracy.
 2. ***Train:*** run *train.ipynb* to train the neural network using *PyTorch* and *ResNet18*. Change the name of the model if you do not want to overwrite the current *model.pth*.
@@ -40,7 +40,7 @@ This demonstrates the output in the browser window when running *live-demo.ipynb
 ![Probability of full/empty bowl](examples/gif-prob-bowl.gif)
 
 ### Food dispenser
-As part of the project I attempted to set up an imporvised dispenser as can be seen in some of the examples. This mostly consisted of a bag hanging from a mic-stand, with a hole that the Jetson either could grip shut or open. In some of the other examples, food is being poured simply to demonstrate what the gripper does.
+As part of the project I attempted to set up an improvised dispenser as can be seen in some of the examples. This mostly consisted of a bag hanging from a mic-stand, with a hole that the Jetson either could grip shut or open. There are other options to doing this, but this project mainly focuses on the AI functionality and the gripper opening and closing. In some of the other examples, food is being poured simply to demonstrate what the gripper does.
 
 ### Opening/Closing grip
 This shows how the grabber opens or closes depending on how empty/full the bowl is (in this case the food is just dropping down as an example to fill the bowl)
@@ -48,7 +48,7 @@ This shows how the grabber opens or closes depending on how empty/full the bowl 
 ![Grabber opening/closing](examples/gif-grabber.gif)
 
 ### Example of live demo
-This shows how the program works with a "bag-dispenser" on top of the grip that lets out food til the bowl is full (note: in this example the setting for full was very low to demonstrate it closing the bag)
+This shows how the program works with a "bag-dispenser" on top of the grip that lets out food until the bowl is full (note: in this example the setting for full was very low to demonstrate it closing the bag)
 
 ![bowls full or empty](examples/gif-bag-bowl.gif)
 
